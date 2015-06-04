@@ -1,0 +1,12 @@
+seleniumChrome:
+    image: selenium/node-chrome:2.45.0
+    links:
+        - seleniumHub:hub
+
+seleniumFirefox:
+    image: selenium/node-firefox:2.45.0
+    links:
+        - seleniumHub:hub
+
+seleniumHub:
+    image: selenium/hub:2.45.0
